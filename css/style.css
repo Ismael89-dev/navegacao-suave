@@ -19,6 +19,10 @@ header ul{
 }
 
 header li{
+    list-style: none;
+}
+
+header li a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,24 +33,16 @@ header li{
     height: 45px;
     border-radius: 5px;
     margin-left: 3rem;
-    transition: background-color .3s;
-}
-
-header li:hover{
-    background-color: black;
-    color: white;
-}
-
-header li:hover a{
-    color: white;
-}
-
-header ul li a{
     text-decoration: none;
-    list-style: none;
     color: black;
     font-size: 19px;
     font-weight: 500;
+    transition: background-color .3s;
+}
+
+header li a:hover{
+    background-color: black;
+    color: white;
 }
 
 section{
